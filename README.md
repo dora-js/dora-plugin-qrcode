@@ -13,12 +13,14 @@ Generates QRCodes in the terminal
 
 ```bash
 $ npm i dora dora-plugin-qrcode -SD
-$ ./node_modules/.bin/dora --plugins atool-build,qrcode?url:'https://www.alipay.com'
+$ ./node_modules/.bin/dora --plugins 'atool-build,qrcode?href:https://www.alipay.com'
 ```
 
 ## Param
 
-`url`
+`href` 
+
+default : `http://yourIP`
 
 ```
 ## Test
