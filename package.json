@@ -1,6 +1,6 @@
 {
   "name": "dora-plugin-qrcode",
-  "version": "0.1.1",
+  "version": "0.2.0",
   "repository": {
     "type": "git",
     "url": "https://github.com/dora-js/dora-plugin-qrcode"
@@ -19,6 +19,7 @@
     "lint"
   ],
   "dependencies": {
+    "internal-ip": "^1.2.0",
     "qrcode-terminal": "^0.10.0"
   },
   "devDependencies": {
@@ -29,7 +30,7 @@
     "babel-preset-es2015": "~6.1.18",
     "babel-preset-stage-0": "~6.1.18",
     "coveralls": "^2.11.6",
-    "dora": "~0.2.2",
+    "dora": "0.3.x",
     "eslint": "~1.9.0",
     "eslint-config-airbnb": "~1.0.0",
     "expect": "^1.13.4",
