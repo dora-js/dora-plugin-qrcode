@@ -1,5 +1,5 @@
 import { setErrorLevel, generate } from 'qrcode-terminal';
-import { getHref } from './util';
+import { getHref } from './utils';
 
 const localIP = require('internal-ip')();
 
