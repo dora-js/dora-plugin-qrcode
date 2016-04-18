@@ -2,6 +2,10 @@
 
 ---
 
+## 0.2.1
+
+- fix: typo
+
 ## 0.2.0
 
 - feat: support dora@0.3
